@@ -251,13 +251,10 @@ h1, h2, #social {
 
 footer {
 	background: rgba(0,0,0,0.8);
-	color: #EEEEEE;
-	text-align: center;
-}
-
-footer h3 {
-	font-size: 16px;
+	color: #FFFFFF;
+	font-size: 10pt;
 	padding: 1em;
+	text-align: center;
 }
 
 @media screen and (min-width: 668px) {
@@ -267,7 +264,7 @@ footer h3 {
 	}
 
 	h1 {
-		padding-top: 2.5em;
+		padding-top: 2em;
 	}
 
 	h1, h2 {
@@ -281,16 +278,18 @@ footer h3 {
 
 	nav {
 		background: none;
-		padding-top: 2em;
-		text-align: right;
+		padding-top: 3em;
+		text-align: left;
 	}
 
 	nav ul {
-		padding-right: 2em;
+		padding-left: 2em;
 	}
 
 	nav ul li a {
+		color: #000000;
 		font-size: 120%;
+		opacity: 1;
 	}
 
 	#about, #work, #contact {
@@ -303,8 +302,8 @@ footer h3 {
 	}
 
 	#about img {
-		height: 50%;
-		width: 50%;
+		height: 200px;
+		width: 200px;
 	}
 
 	#about .info {
@@ -316,18 +315,18 @@ footer h3 {
 	#about .perfil {
 		display: inline-block;
 		margin-left: 2em;
-		margin-right: 2em;
-		margin-top: 2.5em;
+		margin-right: 1.5em;
+		margin-top: 2em;
 		width: 35%;
 	}
 	
 	.contenido h3 {
-		font-size: 160%;
+		font-size: 32px;
 		padding-top: 3em;
 	}
 	
 	.contenido p {
-		font-size: 130%;
+		font-size: 18px;
 	}
 	
 	.work1, .work2, .work3, .work4 {
@@ -342,7 +341,7 @@ footer h3 {
 	}
 
 	#contact .email {
-		font-size: 120%;
+		font-size: 18px;
 	}
 	
 	#contact h2 {
@@ -361,16 +360,8 @@ footer h3 {
 }
 
 @media screen and (min-width: 1280px) {
-	nav {
-		padding-top: 4em;
-	}
-
-	nav ul {
-		padding-right: 3.5em;
-	}
-
 	#about .info p {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	
 	#work article {
@@ -379,12 +370,12 @@ footer h3 {
 	}
 	
 	#contact input[type=text] {
-		font-size: 20px;
+		font-size: 18px;
 		margin-left: 6em;
 	}
 
 	#contact p {
-		font-size: 20px;
+		font-size: 18px;
 		text-align: center;
 	}
 }
