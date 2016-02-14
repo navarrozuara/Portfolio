@@ -321,19 +321,24 @@ footer {
 	}
 	
 	.contenido h3 {
-		font-size: 32px;
-		padding-top: 3em;
+		font-size: 30px;
+		padding-top: 1em;
 	}
 	
 	.contenido p {
 		font-size: 18px;
 	}
+
+	#work article {
+		display: inline-block;
+		max-width: 49.7%;
+	}
 	
 	.work1, .work2, .work3, .work4 {
-		background-size: 100% 350px;
-		height: 350px;
+		background-size: 100% 225px;
+		height: 225px;
 		margin: 0 auto;
-		width: 90%;
+		width: 100%;
 	}
 
 	#contact button {
@@ -365,8 +370,7 @@ footer {
 	}
 	
 	#work article {
-		display: inline-block;
-		width: 49.8%;
+		width: 33.1%;
 	}
 	
 	#contact input[type=text] {
